@@ -30,6 +30,9 @@ export class Serie {
   @Column('integer')
   temporadas: number;
 
+  @Column('tipo_clasificacion')
+  tipocalificacion: string;
+
   @Column('date', { name: 'fecha_estreno' })
   fechaEstreno: Date;
 
